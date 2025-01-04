@@ -10,11 +10,10 @@ Projeto desenvolvido em  JavaScript para calcular a média de notas de atletas, 
 - Exibição do resultado
 
 # Tecnologias Utilizadas 
-- JavaScript
-- 
+- JavaScripT
 
 # Autor
-[Yane Brito](https://github.com/yaneale/notas-atletas.git)
+[Yane Brito] [(https://github.com/yaneale/notas-atletas.git)]
 
 # Licença
 MIT
