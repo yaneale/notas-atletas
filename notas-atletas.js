@@ -14,6 +14,6 @@ for (let i = 0; i < objAtletas.length; i++) {
   let notasComputadas = notasOrdenadas.slice(1, 4);
   let media = notasComputadas.reduce((soma, nota) => soma + nota, 0) / notasComputadas.length;
    
-  console.log(`Média: ${media.toFixed(2)}`);
+  console.log(`Média: ${media}`);
   console.log('---------------------------');
 }
