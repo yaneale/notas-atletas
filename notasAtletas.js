@@ -9,3 +9,11 @@ for (let i = 0; i < objAtletas.length; i++) {
   let atleta = objAtletas[i];
   console.log(`Atleta: ${atleta.nome}`);
   console.log(`Notas: ${atleta.notas.join(', ')}`);
+  
+  let notasOrdenadas = atleta.notas.sort((a, b) => a - b);
+  let notasComputadas = notasOrdenadas.slice(1, 4);
+  let media = notasComputadas.reduce((soma, nota) => soma + nota, 0) / notasComputadas.length;
+   
+  console.log(`Média: ${media.toFixed(2)}`);
+  console.log('---------------------------');
+}
