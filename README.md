@@ -1,5 +1,4 @@
-# notas-atletas
-# notas-atletas
+# notas-atletas 
  Calculadora de média de notas de atletas.
 
 # Descrição
